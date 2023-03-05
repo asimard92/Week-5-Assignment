@@ -128,7 +128,7 @@ class Menu {
     }
 
     deletePocketmonster() {
-        let index = prompt("Enter the name of the Pocketmonster you wish to remove: ");
+        let index = prompt("Enter the index of the Pocketmonster you wish to remove: ");
         if (index > -1 && index < this.selectedRoster.pocketmonsters.length) {
             this.selectedRoster.pocketmonsters.splice(index,1);
         }
